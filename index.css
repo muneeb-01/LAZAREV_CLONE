@@ -1,0 +1,39 @@
+* {
+  color: white;
+  font-family: "Poppins-EL";
+}
+
+@font-face {
+  font-family: "Grotesk";
+  src: url("./Fonts/FoundersGrotesk-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-EL";
+  src: url("./Fonts/Poppins/POPPINS-EXTRALIGHT.TTF");
+}
+
+#nav-h1 {
+  font-family: "Grotesk";
+}
+
+#nav-h4 {
+  font-family: "Poppins-EL";
+  font-size: 0.8vw;
+}
+#page1-H1 {
+  font-size: 11vw;
+  font-family: "Grotesk";
+}
+
+.move {
+  animation: mobe 10s linear infinite;
+}
+@keyframes mobe {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

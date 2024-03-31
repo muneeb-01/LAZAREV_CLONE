@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>
+      LAZAREV. 🪀 — Digital Product Design Agency | Award Winning UX & UI Agency
+    </title>
+    <link
+      rel="shortcut icon"
+      href="https://assets-global.website-files.com/64a2ab71942e1d57feb6fe39/6528221f95333ff155d01ad2_fav.gif"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="fixed flex h-[14vh] justify-between items-start w-full px-[14rem] py-[2rem] bg-[#111111] z-10"
+    >
+      <h1 id="nav-h1" class="text-[3.1rem]">LAZAREV.</h1>
+      <div class="nav-part2 flex gap-12 items-start py-2 relative z-20">
+        <div class="nav-elem">
+          <h4 id="nav-h4" class="mt-[1.3rem] uppercase mb-12">Case Studies</h4>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Case Studies</span>
+          </h5>
+        </div>
+        <div class="nav-elem">
+          <h4 id="nav-h4" class="mt-[1.3rem] uppercase mb-12">
+            Areas of experties
+          </h4>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">AI & ML</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Fintech</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Real Estate</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">E-commerce</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Web 3</span>
+          </h5>
+        </div>
+        <!-- <div class="nav-elem">
+          <h4 id="nav-h4" class="mt-[1.3rem] x uppercase mb-12">UIUX Design</h4>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Fintech</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Real Estate</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">E-commerce</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Web 3</span>
+          </h5>
+        </div>
+        <div class="nav-elem">
+          <h4 id="nav-h4" class="mt-[1.3rem] uppercase mb-12">
+            PRoduct design
+          </h4>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Fintech</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Real Estate</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">E-commerce</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Web 3</span>
+          </h5>
+        </div> -->
+        <div class="nav-elem">
+          <h4 id="nav-h4" class="mt-[1.3rem] x uppercase mb-12">
+            Design Process
+          </h4>
+
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">E-commerce</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Web 3</span>
+          </h5>
+        </div>
+        <div class="nav-elem">
+          <h4 id="nav-h4" class="mt-[1.3rem] x uppercase mb-12">
+            About Agency
+          </h4>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Fintech</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Real Estate</span>
+          </h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden"></h5>
+          <h5 id="h5" class="mb-2 hidden overflow-hidden">
+            <span class="text-sm font-normal inline-block">Web 3</span>
+          </h5>
+        </div>
+      </div>
+      <button
+        class="bg-[#0CA34E] text-[1.2rem] mt-3 text-white px-8 py-3 rounded-full font-bold"
+      >
+        Let's Talk
+      </button>
+      <div
+        id="nav-bottom"
+        class="w-3/4 h-0 absolute top-full bg-[#111111] -z-10 border-b border-white"
+      ></div>
+    </nav>
+    <!-- //main -->
+    <video
+      id="page3-video"
+      class="h-screen w-full opacity-0 rounded-[30px] z-[999] fixed object-cover scale-x-[0.7] scale-y-[0]"
+      src="https://lazarev.kiev.ua/la24/la-reel--min.mp4"
+    ></video>
+    <div id="main" class="w-full">
+      <div>
+        <div
+          id="page1"
+          class="flex h-screen relative flex-col justify-center items-center w-full bg-[#111111]"
+        >
+          <div
+            id="text-container"
+            class="flex flex-col justify-center items-center mt-[24vh]"
+          >
+            <h1
+              id="page1-H1"
+              class="text-[8vw] flex justify-center items-center font-bold leading-[9vw] tracking-tight"
+            >
+              AI & ML PR
+              <span
+                class="inline-block size-[7vw] flex justify-center items-center mt-[1.5rem]"
+              >
+                <span
+                  class="bg-[#0CA34E] text-[2rem] text-center mx-1 rounded-full size-[6.8vw] hover:rotate-[38deg] hover:scale-[0.9] transition-all flex justify-center items-center"
+                >
+                </span>
+              </span>
+              DUCT
+            </h1>
+            <h1
+              id="page1-H1"
+              class="text-[8vw] font-bold leading-[9vw] tracking-tight"
+            >
+              DESIGN AGENCY
+            </h1>
+          </div>
+          <div id="page1-p" class="w-[40vw] mb-[18vh] mt-[1.5vw]">
+            <p class="tracking-tight text-center text-[1vw]">
+              We partner with AI & ML Businesses, guiding them from Series A to
+              Series D and Beyond in our experties in
+            </p>
+            <p
+              class="tracking-tight mt-[1vw] text-center flex gap-3 justify-center items-center"
+            >
+              <span class="border border-white rounded-full px-3 py-1"
+                >brand designing</span
+              >
+              <span class="border border-white rounded-full px-3 py-1"
+                >user experiance</span
+              >
+              and
+              <span class="border border-white rounded-full px-3 py-1"
+                >digital product design</span
+              >
+            </p>
+          </div>
+          <div
+            id="moving-div"
+            class="absolute bottom-[3%] whitespace-nowrap p-[2vw] overflow-hidden w-[44vw]"
+          >
+            <div
+              id="blur-left"
+              class="bg-gradient-to-l from-[#111111] absolute z-0 right-[0] top-[0] h-full w-[20%]"
+            ></div>
+            <div class="move inline-block">
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/forbes.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/adweek.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/pmi.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/wf.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/adweek.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/rd.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/pmi.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/webby.svg"
+                alt=""
+              />
+            </div>
+            <div class="move inline-block">
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/forbes.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/adweek.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/pmi.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/wf.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/adweek.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/rd.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/pmi.svg"
+                alt=""
+              />
+              <img
+                class="h-[1vw] mx-[1.2vw] inline-block"
+                src="https://lazarev.kiev.ua/la24/webby.svg"
+                alt=""
+              />
+            </div>
+            <div
+              id="blur-right"
+              class="bg-gradient-to-r from-[#111111] absolute z-0 left-[0] top-[0] h-full w-[20%]"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <!-- Page no 2 -->
+      <div
+        id="page2"
+        class="h-[100vh] w-full relative px-[10.5vw] border-t border-[#dadada] flex justify-between items-center gap-12 pb-[8rem] bg-[#111111]"
+      >
+        <div
+          id="page2-left"
+          class="w-[40vw] h-full flex items-start justify-between flex-col p-[3vw]"
+        >
+          <p id="h5" class="text-[0.8vw]">
+            Exclusive insights into <br />UI/UX and product design
+          </p>
+          <h5 id="h5" class="w-[87%] text-[1.1vw]">
+            Being a design studio at the forefront of digital transformation and
+            product design, we take it upon ourselves to drop some knowledge,
+            share insights, let out insider tips, and put our work on full
+            display
+          </h5>
+        </div>
+        <div id="page2-right" class="poppin w-[50vw] h-full">
+          <div
+            class="right-elem relative pt-[2vw] pb-[5vw] border-b border-[#333]"
+            id="right-elem1"
+          >
+            <h2 class="text-[1.4vw]">
+              How to Design An AI InterFace Users will <br />Trust in 2024?
+            </h2>
+            <img
+              class="size-[7vw] rounded-full object-cover opacity-0 absolute scale-0"
+              src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="right-elem relative pt-[2vw] pb-[5vw] border-b border-[#333]"
+            id="right-elem1"
+          >
+            <h2 class="text-[1.4vw]">
+              How to Design An AI InterFace Users will <br />Trust in 2024?
+            </h2>
+            <img
+              class="size-[7vw] rounded-full object-cover opacity-0 absolute scale-0"
+              src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="right-elem relative pt-[2vw] pb-[5vw] border-b border-[#333]"
+            id="right-elem1"
+          >
+            <h2 class="text-[1.4vw]">
+              How to Design An AI InterFace Users will <br />Trust in 2024?
+            </h2>
+            <img
+              class="size-[7vw] rounded-full object-cover opacity-0 absolute scale-0"
+              src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="right-elem relative pt-[2vw] pb-[5vw] border-b border-[#333]"
+            id="right-elem1"
+          >
+            <h2 class="text-[1.4vw]">
+              How to Design An AI InterFace Users will <br />Trust in 2024?
+            </h2>
+            <img
+              class="size-[7vw] rounded-full object-cover opacity-0 absolute scale-0"
+              src="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65c5011d306a52274ebea027_cover.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- page no 3 -->
+      <div
+        id="page3"
+        class="bg-[url('https://lazarev.kiev.ua/la24/reel-cover.webp')] relative h-screen w-full bg-[#111111] bg-cover flex justify-center items-center"
+      >
+        <div class="page3-center flex items-center p-[1vw] flex-col">
+          <div
+            id="icon"
+            class="icon flex justify-center items-center p-[3.9vw] bg-[#fff] rounded-full"
+          >
+            <div class="bg-[#000] rounded-full size-[2vw]"></div>
+          </div>
+          <h5
+            id="icon-text"
+            class="text-[0.8vw] font-bold scale-[0.65] bg-[#fff] text-[#000] rounded-[50px] mt-[0.5vw] translate-y-[65%] opacity-0 px-[16px] py-[8px]"
+          >
+            Watch Showreel
+          </h5>
+        </div>
+      </div>
+
+      <!-- page no 4 -->
+
+      <div id="page4" class="min-h-screen w-full bg-[#fff] relative pb-[13vh]">
+        <div
+          class="section w-full h-[72vh] flex justify-between pt-[13vh] px-[10vw] items-center"
+        >
+          <div
+            class="sec-left w-[25%] h-full pt-[3vh] border-t-2 border-[#000]"
+          >
+            <h2 class="text-[2.1vw] font-bold text-[#000]">Accern. Rhea</h2>
+            <p class="text-[1.2vw] text-[#000] mt-[10vh]">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+              inventore enim, quos, qui est id, architecto libero in esse vel
+              officiis repellat alias maxime minima.
+            </p>
+          </div>
+          <div class="sec-right w-[70%] h-full bg-[blanchedalmond] relative">
+            <img
+              class="h-full w-full object-cover"
+              src="./content/images/fc0b129f-34ec-4458-ac87-44117fbb83cd.webp"
+              alt=""
+            />
+            <video
+              class="h-full transition-opacity w-full absolute opacity-0 top-0 left-0 object-cover"
+              muted
+              src="./content/videos/nodo-cover-big.mp4"
+            ></video>
+            <div
+              class="page3-crsr size-[11vw] scale-[0] opacity-[.75] rounded-full bg-[#4F5BFF] absolute top-0 left-0"
+            ></div>
+          </div>
+        </div>
+        <div
+          class="section w-full h-[72vh] flex justify-between pt-[13vh] px-[10vw] items-center"
+        >
+          <div
+            class="sec-left w-[25%] h-full pt-[3vh] border-t-2 border-[#000]"
+          >
+            <h2 class="text-[2.1vw] font-bold text-[#000]">Accern. Rhea</h2>
+            <p class="text-[1.2vw] text-[#000] mt-[10vh]">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+              inventore enim, quos, qui est id, architecto libero in esse vel
+              officiis repellat alias maxime minima.
+            </p>
+          </div>
+          <div class="sec-right w-[70%] h-full bg-[blanchedalmond] relative">
+            <img
+              class="h-full w-full object-cover"
+              src="./content/images/65cb66041ce86ac3784aaba1_Afrotech - cover_horizontal.webp"
+              alt=""
+            />
+            <video
+              class="h-full transition-opacity w-full absolute top-0 left-0 object-cover"
+              muted
+              src="./content/videos/afrotech-cover-big.mp4"
+            ></video>
+            <div
+              class="page3-crsr size-[11vw] scale-[0] opacity-[.75] rounded-full bg-[#4F5BFF] absolute top-0 left-0"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="page5"
+        class="w-full min-h-screen bg-[#111111] px-[10.5vw] py-[5vh] relative flex justify-between items-start"
+      >
+        <button
+          class="bg-[#0BA34E] py-[0.9vh] px-[2.3vw] font-bold text-[1vw] rounded-[50px] top-[18%] sticky border-none"
+        >
+          Become a Client
+        </button>
+        <div id="page5-right" class="w-[70%]">
+          <p class="text-[2.02vw]">
+            <span class="w-[15vw] inline-block"></span>We lead your startup at
+            every step of its <span class="w-[15vw] inline-block"></span>growth,
+            providing unparalleled personal service at every interaction.
+            Whether it's launching an MVP, revamping an existing product,
+            securing funding with UI prototypes, increasing customer engagement,
+            or boosting conversions, we develop a suite of custom-tailored
+            design services to fulfill your expectations.
+          </p>
+          <div id="page5 relative-content" class="w-full m-[5vh] py-[5vh]">
+            <div
+              class="UIUX relative page5-main cursor-pointer border-t pt-[1.5rem]"
+            >
+              <div
+                class="absolute opacity-0 scale-0 z-[50] flex justify-center items-center size-[6rem] bg-[rgba(255, 255, 255, 0.589)] backdrop-blur-sm rounded-full"
+              >
+                <h3 class="page5-crsr-text text-[1rem] font-semibold">Close</h3>
+              </div>
+              <details open>
+                <summary class="relative marker:content-none">
+                  <h1 class="text-[3vw] font-bold">Products</h1>
+                  <div id="flex" class="flex my-[4vh]">
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UX Audit
+                    </h4>
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UI Design
+                    </h4>
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UX Design
+                    </h4>
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UX Research
+                    </h4>
+                  </div>
+                </summary>
+                <div id="page-container" class="">
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full z-0 h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div
+              class="Products relative page5-main cursor-pointer border-t pt-[1.5rem]"
+            >
+              <div
+                class="absolute opacity-0 scale-0 z-[50] flex justify-center items-center size-[6rem] bg-[rgba(255, 255, 255, 0.589)] backdrop-blur-sm rounded-full"
+              >
+                <h3 class="page5-crsr-text text-[1rem] font-semibold">Open</h3>
+              </div>
+              <details>
+                <summary class="relative marker:content-none">
+                  <h1 class="text-[3vw] font-bold">Products</h1>
+                  <div id="flex" class="flex my-[4vh]">
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UX Audit
+                    </h4>
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UI Design
+                    </h4>
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UX Design
+                    </h4>
+                    <h4
+                      class="rounded-[50px] border border-white py-[10px] px-[20px] text-[0.8vw]"
+                    >
+                      UX Research
+                    </h4>
+                  </div>
+                </summary>
+                <div id="page-container" class="">
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full z-0 h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                  <div
+                    class="page5-elem group flex items-start justify-between pt-[3vh] pb-[9vh] overflow-hidden border-t relative"
+                  >
+                    <div
+                      class="over w-full h-full absolute top-0 bg-[#222] -translate-y-[100%] group-hover:opacity-1 group-hover:-translate-y-0 duration-[0.2s] transition-all ease"
+                    ></div>
+                    <h3
+                      class="text-[1.6vw] relative z-[8] group-hover:ml-[0.6vw] duration-[0.2s] transition-all ease"
+                    >
+                      UX Research
+                    </h3>
+                    <p class="w-[55%] text-[0.8vw] relative">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Repellendus consequatur error, enim in iure distinctio,
+                      pariatur quibusdam nobis dolor laborum nulla animi
+                      mollitia voluptas odit, praesentium magni. Exercitationem,
+                      tenetur? Illum, ducimus.
+                    </p>
+                    <div
+                      class="z-0 size-[15px] rounded-full bg-white group-hover:mr-[0.6vw] duration-[0.2s] transition-all ease"
+                    ></div>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="page6"
+        class="min-h-screen relative w-full bg-white py-[10vh] px-[10vw]"
+      >
+        <h1
+          class="text-[5.5vw] text-[#000] pl-[23vw] pr-[5vw] leading-[5.8vw] pb-[10vh] border-b border-[#dadada]"
+        >
+          Digital Product Design Process
+        </h1>
+        <div
+          id="page6-content"
+          class="text-[#000] flex justify-between items-start py-[8vh]"
+        >
+          <div
+            id="blue-btn"
+            class="bg-[#4F5BFF] sticky top-[20%] w-[15vw] h-[3.5vw] rounded-[100px] flex justify-center items-center"
+          >
+            <h4 class="absolute uppercase font-bold text-[0.85vw]">
+              See all Case Studies <i class="ri-arrow-right-up-line"></i>
+            </h4>
+            <h4 class="absolute uppercase font-bold text-[0.85vw]">
+              See all Case Studies <i class="ri-arrow-right-up-line"></i>
+            </h4>
+          </div>
+          <div id="right-6" class="w-[70%]">
+            <p class="text-[1.56vw] text-[#000] mb-[5vh] w-[80%]">
+              We do not take on projects that involve blind conformity or
+              designing out of context. We won't settle for a user interface
+              design that is misaligned with your product and digital strategy.
+              Neither will we launch web development ventures without user
+              testing to validate our design solutions.
+            </p>
+            <p class="text-[1.56vw] text-[#000] mb-[5vh] w-[80%]">
+              Instead, we create scalable digital products that meet the
+              ever-evolving demands of our customers, ensuring long-term
+              sustainability.
+            </p>
+          </div>
+        </div>
+        <div
+          id="page6-bottom"
+          class="h-[44vh] w-full border-t border-[#dadada] flex items-start justify-center"
+        >
+          <div
+            id="btm6-part1"
+            class="btm6-parts py-[3vh] px-[0.6vw] border-r border-[#dadada] w-[30%] h-full"
+          ></div>
+          <div
+            id="btm6-part2"
+            class="btm6-parts py-[3vh] px-[0.6vw] border-r border-[#dadada] w-[28%] h-full"
+          >
+            <h5 class="text-[#000] font-bold text-[0.9vw] mb-[4vh]">
+              Product Strategy
+            </h5>
+            <h4
+              class="translate-x-[0%] mb-[0.2vh] w-[75%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[10%] mb-[0.2vh] w-[75%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[20%] mb-[0.2vh] w-[75%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[30%] mb-[0.2vh] w-[75%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[40%] mb-[0.2vh] w-[75%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[50%] mb-[0.2vh] w-[75%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+          </div>
+          <div
+            id="btm6-part3"
+            class="btm6-parts py-[3vh] px-[0.6vw] border-r border-[#dadada] w-[15%] h-full"
+          >
+            <h5 class="text-[#000] font-bold text-[0.9vw] mb-[4vh]">
+              UX Design
+            </h5>
+            <h4
+              class="translate-x-[0%] text-nowrap mb-[0.2vh] w-[100%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[15%] text-nowrap mb-[0.2vh] w-[100%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[30%] text-nowrap mb-[0.2vh] w-[100%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+          </div>
+          <div
+            id="btm6-part4"
+            class="btm6-parts py-[3vh] px-[0.6vw] border-r border-[#dadada] w-[15%] h-full"
+          >
+            <h5 class="text-[#000] font-bold text-[0.9vw] mb-[4vh]">
+              UI Design
+            </h5>
+            <h4
+              class="translate-x-[0%] text-nowrap mb-[0.2vh] w-[100%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+            <h4
+              class="translate-x-[15%] text-nowrap mb-[0.2vh] w-[100%] py-[6px] bg-black text-white font-semibold gap-4 flex justify-start px-[8px] text-[0.7vw] items-center rounded-[50px]"
+            >
+              <span
+                class="flex justify-center items-center size-[1.5vw] bg-[#333] p-[0.5vw] rounded-[50%]"
+                >1</span
+              >Strategy Workshop
+            </h4>
+          </div>
+          <div
+            id="btm6-part5"
+            class="btm6-parts py-[3vh] px-[0.6vw] w-[15%] h-full"
+          >
+            <h5 class="text-[#000] font-bold text-[0.9vw] mb-[4vh]">
+              Delivery
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
